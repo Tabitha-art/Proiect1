@@ -13,37 +13,75 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
-<div class="container-fluid">
-    <a class="navbar-brand" href="#">
-    <img src="assets/images/logo.png" alt="logo" class="navbar-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav left-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Acasa</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Despre noi</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Cont
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.png" alt="logo" class="navbar-logo">
         </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Autentificare</a></li>
-            <li><a class="dropdown-item" href="#">Inregistrare</a></li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav left-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">ACASA</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/despre_noi.html">DESPRE NOI</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CONT
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/autentificare.html">AUTENTIFICARE</a></li>
+                <li><a class="dropdown-item" href="/inregistrare.html">INREGISTRARE</a></li>
+            </ul>
+            </li>
         </ul>
-        </li>
-    </ul>
+        </div>
     </div>
-</div>
-</nav>
+    </nav>
+
+<section class="bg-body min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="container py-5 w-100 ">
+        <h2 class="text-center line pb-24 pt-5">Inregistrare</h2>
+        <div class="shadow pb-2">
+            <form class="px-4 py-3">
+            <div class="mb-3">
+                <label  class="form-label">Nume</label>
+                <input type="text" class="form-control" placeholder="Nume" aria-label="First name">
+            </div>
+            <div class="mb-3">
+                <label  class="form-label">Prenume</label>
+                <input type="text" class="form-control" placeholder="Prenume" aria-label="Prenume">
+            </div>
+            <div class="mb-3">
+                <label  class="form-label">Adresa de e-mail</label>
+                <input type="email" class="form-control"  placeholder="email@exemplu.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleDropdownFormPassword1" class="form-label">Parola</label>
+                <input type="password" class="form-control"  placeholder="Parola">
+            </div>
+            <div class="mb-3">
+                <label for="exampleDropdownFormPassword1" class="form-label">Confirma parola</label>
+                <input type="password" class="form-control"  placeholder="Confirma parola">
+            </div>
+            <div class="mb-3">
+                <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label" >
+                    Tine-ma minte
+                </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Inregistrare</button>
+            </form>
+    </div>
+</section>
 
 <footer class="py-5 text-center ">
 <div class="container">
